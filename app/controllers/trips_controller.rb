@@ -25,7 +25,7 @@ class TripsController < ApplicationController
     if @trip.update(trip_params)
       render json: @property
     else
-      render json: @property.errors, status: : unprocessable_entity
+      render json: @property.errors, status: :unprocessable_entity
     end
   end
 
