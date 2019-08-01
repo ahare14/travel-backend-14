@@ -35,7 +35,6 @@ end
 
 # DELETE /pictures/1
 def destroy
-  # byebug
   @picture.destroy
 end
 
