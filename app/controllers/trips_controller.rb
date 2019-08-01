@@ -55,5 +55,5 @@ class TripsController < ApplicationController
   #       ] 
   #     ]
   #   )
-  end 
+  
 end
