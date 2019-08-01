@@ -43,17 +43,4 @@ class TripsController < ApplicationController
     params.require(:trip).permit(:user_id, :title)
   end
 
-  # def trip_params
-  #   params.require(:trip).permit(
-  #     [
-  #       :user_id, 
-  #       :title,
-  #       pictures_attributes: %I [
-  #         id
-  #         photo
-  #         _destroy
-  #       ] 
-  #     ]
-  #   )
-  
 end
